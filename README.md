@@ -10,3 +10,10 @@ This contains analysis of the solution space of a linear system over a four elem
 ---
 
 Ijulia and Jupyter-Notebook needs to be installed.
+Please install the `NbInclude` package using Julia to import Julia Notebook files
+
+```bash
+julia
+import Pkg
+Pkg.add("NBInclude")
+```
