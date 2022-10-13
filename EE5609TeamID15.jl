@@ -1,14 +1,4 @@
-using Printf
-# using Random
-# Random.seed!(1234)
-# m = 3
-# n = 4
-# A = rand(1:3, (m,n))
-# # A = ones(Int64, m,n)
-# b = rand(1:3,m)
-# print(A)
-# println()
-# print(b)
+
 
 function rankconsistencyTeamID15(A::Matrix{Int64}, b::Vector{Int64})
     consistent::Bool = false
