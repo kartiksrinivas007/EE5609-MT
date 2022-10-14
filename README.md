@@ -16,4 +16,11 @@ Please install the `NbInclude` package using Julia to import Julia Notebook file
 julia
 import Pkg
 Pkg.add("NBInclude")
+Pkg.add("JLD2")
 ```
+For running test scripts
+
+```bash
+julia evaluation.jl
+```
+
