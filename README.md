@@ -1,12 +1,11 @@
 ## Linear System over Galois Field
 
-
 ---
 
-
 This contains analysis of the solution space of a linear system over a four element Galois Field and implements an efficient gaussian elimination algorithm to solve it.
-It also deduces whether the snumber of solutions is degenerate and reports the rank of the linear transform
+It also deduces whether the snumber of solutions is degenerate and reports the rank of the linear transform. Details are in `assignment-1.pdf`
 
+The code is written in [Julia](https://julialang.org/).
 
 ### Prerequisites
 ---
